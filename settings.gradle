@@ -1,0 +1,4 @@
+rootProject.name = 'at-chaga'
+include 'at-chaga-api'
+include 'at-chaga-domain'
+
