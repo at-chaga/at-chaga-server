@@ -29,7 +29,7 @@ public class AtChagaApiConfig {
 	@Bean
 	public HandlebarsViewResolver handlebarsViewResolver() {
 		HandlebarsViewResolver handlebarsViewResolver = new HandlebarsViewResolver();
-		handlebarsViewResolver.setPrefix("/views/");
+		handlebarsViewResolver.setPrefix("/WEB-INF/views/");
 		handlebarsViewResolver.setOrder(0);
 		handlebarsViewResolver.setSuffix(".hbs");
 
